@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f32b220-197e-44a9-9695-d239229c33db" name="Default Changelist" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1552030257338</updated>
       <workItem from="1552030258483" duration="3954000" />
-      <workItem from="1641657914124" duration="10148000" />
+      <workItem from="1641657914124" duration="10725000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1641729457505</created>
@@ -113,7 +114,14 @@
       <option name="project" value="LOCAL" />
       <updated>1641729600892</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="first commit">
+      <created>1641730348733</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1641730348733</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
