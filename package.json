@@ -17,6 +17,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "tslog": "^3.3.1"
   }
 }
