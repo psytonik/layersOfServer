@@ -1,1 +1,1 @@
-import  {App} from './app';import {LoggerService} from "./logger/logger.service";const bootstrap = async ()=>{    const app = new App(new LoggerService());    await app.init();}bootstrap()    .finally();
+import  {App} from './app';import {LoggerService} from "./logger/logger.service";import {UsersController} from "./users/users.controller";const bootstrap = async ()=>{    const logger = new LoggerService();    const app = new App(logger,new UsersController(logger));    await app.init();}bootstrap()    .finally();
