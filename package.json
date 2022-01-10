@@ -2,12 +2,13 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "app.ts",
+  "main": "src/main.ts",
   "scripts": {
-    "start": "nodemon ./dist/app.js",
+    "start": "nodemon ./dist/main.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "type": "module",
+  "type": "commonjs",
   "keywords": [],
   "author": "Anthony Fink",
   "license": "ISC",
