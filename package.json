@@ -4,11 +4,11 @@
   "description": "",
   "main": "src/main.ts",
   "scripts": {
-    "start": "nodemon ./dist/main.js",
+    "dev": "nodemon",
     "lint": "eslint ./src/**",
     "lint:fix": "eslint ./src/** --fix",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./dist/main.js"
   },
   "type": "commonjs",
   "keywords": [],
@@ -29,6 +29,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "nodemon": "^2.0.15",
     "prettier": "2.5.1",
+    "ts-node": "^10.4.0",
     "typescript": "^4.5.4"
   }
 }
