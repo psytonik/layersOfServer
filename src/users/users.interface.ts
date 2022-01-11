@@ -1,1 +1,1 @@
-import {NextFunction, Request, Response} from "express";export interface UsersInterface {    login:(request:Request,response:Response,next:NextFunction) => void;    registration: (request:Request,response:Response,next:NextFunction) => void;}
+import { NextFunction, Request, Response } from 'express';export interface UsersInterface {	login: (request: Request, response: Response, next: NextFunction) => void;	registration: (request: Request, response: Response, next: NextFunction) => void;}
