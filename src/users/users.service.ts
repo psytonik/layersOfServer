@@ -13,7 +13,6 @@ export class UsersService implements UserServiceInterface {
 	async createUser({ email, password, name }: UserRegistrationDto): Promise<UserEntity | null> {
 		const newUser = new UserEntity(email, name);
 		const salt = this.configService.get('SALT');
-		console.log(salt);
 		await newUser.setPassword(password, Number(salt));
 		// check for existing user
 		if (!newUser) {
