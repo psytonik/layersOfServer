@@ -10,6 +10,9 @@ export class UsersService implements UserServiceInterface {
 		const newUser = new UserEntity(email, name);
 		await newUser.setPassword(password);
 		// check for existing user
+		if (!newUser) {
+			return null;
+		}
 		return newUser;
 	}
 
