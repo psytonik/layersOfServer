@@ -1,8 +1,8 @@
 import { UserRegistrationDto } from './dto/user-registration.dto';
-import { UserEntity } from './user.entity';
 import { UserLoginDto } from './dto/user-login.dto';
+import { UserModel } from '@prisma/client';
 
-export interface UserServiceInterface {
-	createUser: (dto: UserRegistrationDto) => Promise<UserEntity | null>;
+export interface UsersServiceInterface {
+	createUser: (dto: UserRegistrationDto) => Promise<UserModel | null>;
 	validateUser: (dto: UserLoginDto) => Promise<boolean>;
 }
