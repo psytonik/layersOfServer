@@ -1,6 +1,6 @@
 # Server boilerplate
 Architecture of server app
-![](readMe/Slide1.png)
+![](read/slide.png)
 
 ## Commands
 
