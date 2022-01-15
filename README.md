@@ -1,11 +1,21 @@
 # Server boilerplate
-Architecture of server app
+_**Architecture of server app**_
 ![](read/slide.png)
 
 ## Commands
 
-start script: npm run dev
+For initializing prisma `npx prisma init`
 
-linting: npm run lint
+Migration of database `npx prisma migrate dev`
 
-linting fix all: npm run lint:fix
+Generate DB `npm run generate`
+
+Start development mode: `npm run dev`
+
+Linting: `npm run lint`
+
+Linting fix all: `npm run lint:fix`
+
+Build `npm run build`
+
+Start Production mode `npm run start`
