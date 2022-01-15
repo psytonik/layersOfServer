@@ -29,10 +29,10 @@ export class UsersService implements UsersServiceInterface {
 
 	async validateUser({ email, password }: UserLoginDto): Promise<boolean> {
 		const existedUser = await this.usersRepository.find(email);
-		if(existedUser){
-			const user = new UserEntity(existedUser.email,existedUser.name, existedUser.password);
+		if (existedUser) {
+			const user = new UserEntity(existedUser.email, existedUser.name, existedUser.password);
 			return await user.comparePassword(password);
-		} else{
+		} else {
 			return false;
 		}
 	}
